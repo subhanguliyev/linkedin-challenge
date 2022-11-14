@@ -15,11 +15,11 @@ driver = webdriver.Chrome(service=s, options=chrome_options)
 # linkedin registration url
 url = 'https://www.linkedin.com/signup'
 
-Ln_User_Name = 'teodorbakus12345@proton.me'
-Ln_Password = 'Teodor12345678'
-first_name = 'Teodor'
-last_name = 'Bakus'
-phone_number = '554392634'
+Ln_User_Name = ''
+Ln_Password = ''
+first_name = ''
+last_name = ''
+phone_number = ''
 
 driver.get(url)
 driver.implicitly_wait(10)
