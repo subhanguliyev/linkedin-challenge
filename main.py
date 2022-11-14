@@ -13,7 +13,7 @@ url = 'https://account.proton.me/signup'
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 # specify the location of the Google Chrome webdriver
-s = Service('C://Users//squ_a//OneDrive//Рабочий стол//linkedin//chromedriver.exe')
+s = Service('C://Users//squ_a//OneDrive//Рабочий стол//proton_mail//linkedin-challenge//chromedriver.exe')
 driver = webdriver.Chrome(service=s, options=chrome_options)
 
 # User information
