@@ -45,3 +45,16 @@ WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
 
 # after captcha
 print("LinkedIn account created")
+
+# If phone verification is needed
+# time.sleep(5)
+# WebDriverWait(driver, 20).until(EC.frame_to_be_available_and_switch_to_it
+#                                 ((By.XPATH, "//iframe[@title='Проверка безопасности']")))
+# time.sleep(3)
+# WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "phonenumber"))).send_keys(phone_number)
+
+# time.sleep(5)
+# WebDriverWait(driver, 20).until(EC.element_to_be_clickable(
+#     (By.XPATH, "//button[text()='Отправить']"))).click()
+# time.sleep(20)
+# verify_code = input("Enter verification code from SMS:\n")
